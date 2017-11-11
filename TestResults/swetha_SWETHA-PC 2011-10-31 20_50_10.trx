@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6487d2d0-4697-4224-83e0-641dd6265961" name="swetha@SWETHA-PC 2011-10-31 20:50:10" runUser="swetha-PC\swetha" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6162c3b6-876d-4b34-81c6-d6c2edded6c6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="swetha_SWETHA-PC 2011-10-31 20_50_10">
+      <DeploymentItem filename="c:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.dll" />
+      <DeploymentItem filename="c:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.Design.4.0.dll" />
+      <DeploymentItem filename="C:\Users\swetha\Dropbox\CS2103\[F9S2][V0.2]-Swetha\[F9S2][V0.2]\bin\Debug\ToDoList.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-31T20:50:10.4603094+08:00" queuing="2011-10-31T20:50:10.4803106+08:00" start="2011-10-31T20:50:10.4943114+08:00" finish="2011-10-31T20:50:10.8253303+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SWETHA-PC" outcome="Warning" timestamp="2011-10-31T20:50:10.4783105+08:00">
+        <Text>Deployment is currently disabled. The deployment item 'ToDoList.exe' on test 'TestProject1.OperationTest.ExitTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExitTest" storage="c:\users\swetha\dropbox\cs2103\[f9s2][v0.2]-swetha\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="b11e4bb9-0f98-10e2-6b90-415d7f23d643">
+      <DeploymentItems>
+        <DeploymentItem filename="ToDoList.exe" />
+      </DeploymentItems>
+      <Execution id="60a3dcc1-7cf0-48b1-a120-f652d3ae27e1" />
+      <TestMethod codeBase="C:/Users/swetha/Dropbox/CS2103/[F9S2][V0.2]-Swetha/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExitTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b11e4bb9-0f98-10e2-6b90-415d7f23d643" executionId="60a3dcc1-7cf0-48b1-a120-f652d3ae27e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="60a3dcc1-7cf0-48b1-a120-f652d3ae27e1" testId="b11e4bb9-0f98-10e2-6b90-415d7f23d643" testName="ExitTest" computerName="SWETHA-PC" duration="00:00:00.0627200" startTime="2011-10-31T20:50:10.5003117+08:00" endTime="2011-10-31T20:50:10.8003289+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60a3dcc1-7cf0-48b1-a120-f652d3ae27e1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.OperationTest.ExitTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at ToDoList.Operation_Accessor.Exit()
+   at TestProject1.OperationTest.ExitTest() in C:\Users\swetha\Dropbox\CS2103\[F9S2][V0.2]-Swetha\[F9S2][V0.2]\TestProject1\OperationTest.cs:line 142
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

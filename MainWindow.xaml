@@ -1,0 +1,121 @@
+﻿<Window x:Class="ToDoList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:charts="clr-namespace:ToDoList"
+        Title="What'sNext?" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="1151" d:DesignWidth="1244"  Height="645" Width="783" Closing="OnClose" StateChanged="OnStateChanged" IsVisibleChanged="OnIsVisibleChanged"
+     WindowStartupLocation="CenterScreen" WindowState="Normal"  OpacityMask="Black" Icon="/ToDoList;component/Images/pencil.jpg" Left="Auto" ResizeMode="CanMinimize" Name="WhatsNext">
+    <Window.CommandBindings>
+        <CommandBinding Command="Undo"
+                        CanExecute="CommandBinding_CanExecute"
+                        Executed="undoExecuted"/>
+        <CommandBinding Command="Redo"
+                        CanExecute="CommandBinding_CanExecute"
+                        Executed="redoExecuted" />
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Command="Undo" Key="Z" Modifiers="Ctrl"/>
+        <KeyBinding Command="Redo" Key="Y" Modifiers="Ctrl"/>
+    </Window.InputBindings>
+    <Window.Background>
+        <ImageBrush ImageSource="Images\images (4).jpg" Stretch="UniformToFill" TileMode="FlipXY" Viewport="0,0,533.333333333333,106.666666666667" ViewportUnits="Absolute" />
+    </Window.Background>
+    <Grid Height="699"  Width="883">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="393*" />
+            <RowDefinition Height="211*" />
+            <RowDefinition Height="95*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="782*" />
+            <ColumnDefinition Width="99*" />
+        </Grid.ColumnDefinitions>
+        <DataGrid Background="White" BorderBrush="White" BorderThickness="3" CanUserAddRows="{Binding}" CanUserDeleteRows="True" FontFamily="Cambria" FontSize="14" FontStretch="Normal" FontWeight="Bold" Foreground="Black" Grid.RowSpan="2" HorizontalGridLinesBrush="Black" IsReadOnly="True" ItemsSource="{Binding dateEventObj}" Margin="20,304,33,53" Name="dataGrid1" OpacityMask="Black" VerticalGridLinesBrush="Black" Grid.Column="1" LoadingRow="dataGrid1_LoadingRow" AreRowDetailsFrozen="False" ColumnWidth="SizeToCells" />
+        <DataGrid Name="datagrid" Margin="19,303,33,53" CanUserAddRows="{Binding}" CanUserDeleteRows="True" ItemsSource="{Binding eventObject}" LoadingRow="datagrid_LoadingRow" OpacityMask="Black" BorderThickness="3" BorderBrush="White" Background="#0BF5F2F2" HorizontalGridLinesBrush="Black" VerticalGridLinesBrush="Black" FontWeight="Bold" FontFamily="Cambria" FontSize="14" FontStretch="Normal" Foreground="Black" IsReadOnly="True" Grid.RowSpan="2" GridLinesVisibility="All" ColumnWidth="SizeToCells" AreRowDetailsFrozen="False" SelectionMode="Extended" Grid.Column="1" SelectionChanged="datagrid_SelectionChanged"></DataGrid>
+        <Label Height="69" Margin="555,0,0,262" Name="label4" VerticalAlignment="Bottom" Grid.Column="1" Background="{x:Null}" Foreground="#FFF2F1E6" FontFamily="Rawengulk" FontWeight="Bold" FontSize="14" FontStretch="SemiExpanded" HorizontalAlignment="Left" Width="195"></Label>
+        <ListBox Height="82" HorizontalAlignment="Left" Margin="18,0,0,164" Name="listBox1" ItemsSource="{Binding dateEventObj}" SelectionMode="Single" Grid.Column="1" BorderBrush="#FF051001" Background="White" FontWeight="Normal" Opacity="2" Width="117" VerticalAlignment="Bottom"></ListBox>
+        <Calendar Height="168" HorizontalAlignment="Left" Margin="533,96,0,0" Name="calendar1" VerticalAlignment="Top" Width="255" Grid.Column="1" DisplayMode="Month" SelectionMode="SingleDate" IsTodayHighlighted="True"  MouseDoubleClick="Calendar_Opened" BorderBrush="Black" BorderThickness="1" Background="#FFFFF8F8" Grid.ColumnSpan="2"></Calendar>
+        <Menu Height="23" HorizontalAlignment="Left" Margin="448,31,0,0" Name="menu1" VerticalAlignment="Top" Width="300" AllowDrop="True" Grid.Column="1" Background="#FFFCFCFC">
+            <!--<MenuItem Header="_View" Name="View" Click="View_Click" AllowDrop="True" Width="100" Visibility="Visible">!-->
+            <MenuItem Header="_View" Name="View" Click="View_Click" AllowDrop="True" Width="100" Visibility="Visible">
+                <MenuItem Name="History" Click="History_Click" Visibility="Visible" Header="History" />
+                <MenuItem Name="Performance" Click="Performance_Click" Visibility="Visible" Header="Performance" />
+            </MenuItem>
+
+            <MenuItem Header="  _Help" Name="Help" Click="Help_Click" AllowDrop="True" Width="100">
+                <MenuItem Name="About" Click="About_Click" Header="About What'sNext"/>
+                <MenuItem Name="UserGuide" Click="UserGuide_Click" Header="User Guide" />
+                <MenuItem Name="Commands" Click="Commands_Click" Header="Commands" />
+            </MenuItem>
+            <MenuItem Header="_Quit" Name="Quit" Click="Quit_Click" AllowDrop="True" Width="100">
+            </MenuItem>
+        </Menu>
+        <Image Height="66" HorizontalAlignment="Left" Margin="19,14,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="62" Grid.Column="1" Source="/ToDoList;component/Images/pencil.jpg" />
+        <ToolBarTray Height="40" HorizontalAlignment="Left" Margin="306,92,0,0" Name="toolBarTray1" VerticalAlignment="Top" Width="280" Grid.Column="2" Background="#00400000" Grid.Row="2" />
+        <Label Content="Enter Command" Height="34" HorizontalAlignment="Left" Margin="19,86,0,0" Name="label3" VerticalAlignment="Top" Width="174" Grid.Column="1" FontFamily="Chiller" FontSize="26" FontWeight="Bold" Foreground="#FFF8F8F8" Background="{x:Null}"></Label>
+        <TextBox Height="156" HorizontalAlignment="Left" Margin="359,148,0,0" Name="textBox2" VerticalAlignment="Top" Width="772" TextWrapping="Wrap"  Grid.Column="1" OpacityMask="#75000000" BorderBrush="#E6F8ECEC" Grid.Row="2" Grid.ColumnSpan="2">
+            <TextBox.Background>
+                <ImageBrush ImageSource="Images\woodbackground.jpg" Stretch="Fill" TileMode="FlipXY" Viewport="0,0,1024,1024" ViewportUnits="Absolute" />
+            </TextBox.Background>
+        </TextBox>
+        <TextBox Height="24" HorizontalAlignment="Left" Margin="18,126,0,0" Name="textBox1" VerticalAlignment="Top" Width="531" TextChanged="textBox1_TextChanged" KeyDown="textbox_KeyDown" Text="&quot;&quot;" AutoWordSelection="True" IsEnabled="True" Grid.Column="1" PreviewKeyDown="textBox1_PreviewKeyDown" Foreground="Black" BorderBrush="#FF0D0000" OpacityMask="#FF0A0801" FontFamily="Cambria" FontSize="14" Background="White" DataContext="{Binding}">
+            <TextBox.ToolTip>
+
+                <DockPanel Width="Auto" Height="Auto" >
+                    <TextBlock> To add an event, enter event description within the quotes</TextBlock>
+                </DockPanel>
+                
+            </TextBox.ToolTip>
+            
+
+        </TextBox>
+        <Label Content="What'sNext?" FontFamily="Cambria" FontSize="28" FontStyle="Normal" FontWeight="Bold" Grid.Column="1" Height="40" HorizontalAlignment="Right" Margin="0,14,472,0" VerticalAlignment="Top" Width="223" Foreground="#FFFCFBF2" FontStretch="SemiExpanded" />
+        <Label Content="Plan your life ahead.." FontFamily="Book Antiqua" FontSize="13" Grid.Column="1" Height="30" HorizontalAlignment="Right" Margin="0,50,494,0" Width="192" Foreground="#FFFCFAEF" VerticalAlignment="Top" FontStretch="SemiExpanded" />
+        <Label Content="Display Box" FontFamily="Chiller" FontSize="22" FontWeight="Bold" Grid.Column="1" Height="43" HorizontalAlignment="Left" Margin="20,266,0,0" VerticalAlignment="Top" Width="96" Background="#000A0700" Foreground="#FFF5F4F2" />
+        <TextBox Name="ToastMsg" Grid.Column="1" Height="26" HorizontalAlignment="Left" Margin="20,234,0,0" VerticalAlignment="Top" Width="529" Foreground="White" BorderBrush="#00000000" FontFamily="Segoe UI" FontSize="14">
+            <TextBox.Background>
+                <ImageBrush />
+            </TextBox.Background>
+        </TextBox>
+        <Label Content="Copyright © by Pirates Of Silicon Valley.All rights reserved." Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Height="28" HorizontalAlignment="Left" Margin="223,188,0,0" Name="label1" VerticalAlignment="Top" Width="324" Foreground="White" FontSize="10" FontFamily="Arial" />
+        <ToolBarTray Grid.Column="1" Height="32" HorizontalAlignment="Left" Margin="583,266,0,0" Name="toolBarTray2" VerticalAlignment="Top" Width="166" Visibility="Visible" OpacityMask="#00000000" />
+        <Image Grid.Column="1" Height="24" Margin="653,274,102,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Source="/ToDoList;component/Images/Edit-icon.png" OpacityMask="#FF100E0E" MouseLeftButtonDown="Edit_Click" >
+           <Image.ToolTip>
+            <DockPanel Width="Auto" Height="Auto" >
+                <TextBlock> Edit</TextBlock>
+            </DockPanel>
+            </Image.ToolTip>    
+          </Image>
+        <Image Grid.Column="1" Height="24" HorizontalAlignment="Left" Margin="686,274,0,0" Name="image6" Stretch="Fill" VerticalAlignment="Top" Width="27" Source="/ToDoList;component/Images/PowerDel.icon.gif" MouseLeftButtonDown="Delete_Click">
+            <Image.ToolTip>
+                <DockPanel Width="Auto" Height="Auto" >
+                    <TextBlock> Delete</TextBlock>
+                </DockPanel>
+            </Image.ToolTip>
+       
+        </Image>
+        <Image Grid.Column="1" Height="24" HorizontalAlignment="Left" Margin="721,0,0,94" Name="image7" Stretch="Fill" VerticalAlignment="Bottom" Width="27" Source="/ToDoList;component/Images/1505202069.png" MouseLeftButtonDown="Done_Click">
+            <Image.ToolTip>
+                <DockPanel Width="Auto" Height="Auto" >
+                    <TextBlock> Done</TextBlock>
+                </DockPanel>
+            </Image.ToolTip>
+        </Image>
+        <Image Grid.Column="1" Grid.Row="1" Height="39" HorizontalAlignment="Left" Margin="708,165,0,0" Name="image8" Stretch="Fill" VerticalAlignment="Top" Width="42" Source="/ToDoList;component/Images/Right_Arrow_Icon_Black.png" MouseLeftButtonDown="ShowNextView" >
+            <Image.ToolTip>
+                <DockPanel Width="Auto" Height="Auto" >
+                    <TextBlock> Flip View</TextBlock>
+                </DockPanel>
+            </Image.ToolTip>
+        </Image>
+        
+        
+        <Label Content="" Grid.Column="1" Height="361" HorizontalAlignment="Left" Margin="96,0,0,149" Name="performanceLabel" VerticalAlignment="Bottom" Width="570" Visibility="Hidden" Opacity="1" Background="White" Grid.RowSpan="2" />
+        <Button Content="Close" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="598,95,0,0" Name="performanceButton" VerticalAlignment="Top" Width="67" Visibility="Hidden" Click="performanceButton_Click" />
+        <!--charts:PerformanceChart Grid.Column="1" Height="350" HorizontalAlignment="Left" Margin="130,74,0,0" x:Name="performanceChart1" VerticalAlignment="Top" Width="550" Visibility="Hidden" Grid.RowSpan="2">
+        </charts:PerformanceChart-->
+        <Button Content="Test" Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="615,173,0,0" Name="test" VerticalAlignment="Top" Width="75" Visibility="Visible" GotFocus="Got_Focus" MouseMove="mouseover" Click="Test_Click" Background="#04000000" Foreground="#FF0E0101" BorderBrush="#FF0A0000" OpacityMask="Black" />
+        
+    </Grid>
+</Window>
+

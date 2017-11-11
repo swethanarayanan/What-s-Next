@@ -1,0 +1,24 @@
+31/10/2011 3:00:53 AM : Checking for the command...
+Expected Output : Command Checked 
+
+System Output: Command Checked
+
+
+31/10/2011 3:00:53 AM : Checking Syntax of TextBox...
+Expected Output : Syntax Checked 
+
+System Output: Syntax Checked 
+
+
+31/10/2011 3:00:53 AM : Checking if command and content are valid..
+Expected Output : Command and Content Validated 
+
+System Output: Command and Content Validated
+
+
+31/10/2011 3:00:53 AM : Trying to create an object of Parser Class...
+Expected Output : Object Creation Successful 
+
+System Output: Object Creation Successful
+
+

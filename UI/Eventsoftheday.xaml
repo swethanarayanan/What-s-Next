@@ -1,0 +1,27 @@
+﻿<Window x:Class="ToDoList.Eventsoftheday"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Eventsoftheday" SizeToContent="WidthAndHeight">
+
+    <Grid>
+
+        <Label Content="Label" Name="label1" Loaded="label_loaded" Foreground="#FFEBEBEB" FontWeight="Bold" FontSize="18" FontFamily="Comic Sans MS" Height="Auto" Width="Auto" Margin="0,-2,0,2">
+            <Label.Background>
+                <ImageBrush ImageSource="Images/wood.jpg" />
+            </Label.Background>
+        </Label>
+        <DataGrid Name="dataGrid2" Margin="96,85,0,164"  CanUserAddRows="{Binding}" CanUserDeleteRows="True" ItemsSource="{Binding dateEventObj}" ColumnWidth="*" Height="Auto" Width="Auto"  HorizontalAlignment="Left"  FlowDirection="LeftToRight" SelectedItem="red" LoadingRow="dataGrid2_LoadingRow" SelectionChanged="dataGrid2_SelectionChanged_1" BorderBrush="#FF000100" >
+            <DataGrid.Background>
+                <ImageBrush ImageSource="/ToDoList;component/Images/woodbackground.jpg" />
+            </DataGrid.Background>
+        </DataGrid>
+        <Label Background="#0D000000" Content="Events" FontFamily="Comic Sans MS" FontSize="18" FontWeight="Normal" Foreground="#FFF2EED6" Height="36" HorizontalAlignment="Left" Margin="12,0,0,528" Name="label4" VerticalAlignment="Bottom" Width="Auto" />
+        <Label Content="Label"  Width="Auto" Height="Auto" HorizontalAlignment="Left" Margin="235,582,0,0" Name="label2" VerticalAlignment="Top" Foreground="#FFF5E9E9" FontFamily="Comic Sans MS" FontSize="16" />
+        <Label Content="Label" Name="label3"  Width="967" FontFamily="Cambria" FontSize="16" Height="70" VerticalContentAlignment="Bottom" VerticalAlignment="Bottom" Margin="-173,0,-160,26">
+            <Label.Background>
+                <ImageBrush ImageSource="Images/wood.jpg" />
+            </Label.Background>
+        </Label>
+    </Grid>
+    
+</Window>

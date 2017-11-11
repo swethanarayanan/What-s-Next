@@ -1,0 +1,49 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="25283978-310E-4F42-9238-47F6B809303F">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="ToDoList" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="ToDoList" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="PresentationFramework" AssemblyName="PresentationFramework" HintPath="PresentationFramework.dll" />
+        <Reference Name="System.Xaml" AssemblyName="System.Xaml" HintPath="System.Xaml.dll" />
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Windows.Forms" AssemblyName="System.Windows.Forms" HintPath="System.Windows.Forms.dll" />
+        <Reference Name="WindowsBase" AssemblyName="WindowsBase" HintPath="WindowsBase.dll" />
+        <Reference Name="PresentationCore" AssemblyName="PresentationCore" HintPath="PresentationCore.dll" />
+        <Reference Name="System.Drawing" AssemblyName="System.Drawing" HintPath="System.Drawing.dll" />
+        <Reference Name="System.Core" AssemblyName="System.Core" HintPath="System.Core.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\MainWindow.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\App.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\edit_event.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\delete_event.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\Parser.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\Operation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\History.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\DateEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList.Properties\Resources.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\add_event.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\Window1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\TaskDetails.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\Event.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList.Properties\Settings.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\HistoryDatabase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\Remainder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\Database.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\Eventsoftheday.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\done.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\ListBoxContent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\Conversions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList\IntellisenseDatabase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ToDoList.Properties.Resources.resx" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

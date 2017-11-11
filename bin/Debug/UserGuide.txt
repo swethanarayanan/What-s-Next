@@ -1,0 +1,41 @@
+Quick Start Guide:
+Welcome to 2DO – the most efficient way to “Plan your life ahead”. This quick start guide will acquaint you with the features of the products and provide you guidelines on how to use them.
+Commands:
+In the screenshot above, there is a Command Box on the top right of the window where you can enter commands for manipulating events. The list of commands and their uses are given below:
+1. ADD
+This utility allows you to create an event and also add details like the description and the deadline for completion. You can either enter the following command in the Command Box or click on the icon in the bottom right corner of the window.
+Ex: Add event “Dinner” at “Pizza Hut” start “2/9/11” end “2/9/11” from “8.00 pm” to “10.00 pm” duration “0.5 hr” priority “high” reminder “1 hr”
+The data entered by you will appear within quotes automatically. The last field ‘reminder’ enables the reminder service for the event. Among all the above fields, only ‘event’, ‘location’, ‘start time’ and ‘duration’ are essential. If the rest of the fields are not mentioned then the event’s deadline is assumed to be on the same day and is given medium priority. The added event is then shown in the table below along with other details.
+Note: You can use our “Smart Slots” feature to schedule the event in your day’s timetable. To learn more about how to use this feature ,please proceed to ‘Smart Slots’ section.
+2. DELETE
+This utility allows you to delete existing events. You can execute it through the Command Box or by selecting the event and clicking on the icon in the bottom right corner.
+Ex: Delete ID “12”
+The above command will delete the event no. 12.
+3. EDIT
+You can edit existing events’ details using this command.
+Ex: Edit ID “11” event “Dinner” at “Pizza Hut” start “2/9/11” end “2/9/11” from “8.00 pm” to “10.00 pm” duration “0.5 hr” priority “high” reminder “1 hr”
+This resets the corresponding fields with the newly entered information. The event is identified using the ID Number. Instead you can also select the event and click on the icon. Any of the fields can be modified any time.
+4. SEARCH
+This enables you to search for an event using its description, location, start or end dates. The results are displayed in the decreasing order of importance in the Display Box in the middle of the window. You can also search using “Search” option under “Options” Menu.
+Ex: Search location “Pizza Hut”
+5. UNDO
+Typing Undo in the Command Box enables you to reverse the effect of the last executed commands. You can alternatively use the Short‐Cut key (Ctrl+Z).
+6. DONE
+You can indicate completed events by selecting them and clicking on the icon or by typing in the Command Box.
+Ex: Done ID “12”7. CLEAR
+Typing Clear in the Command Box will clear all existing events.
+8. VIEW HISTORY
+This command allows you to view the past history of events in the Display Box. Alternatively you can also choose “View history” under “View” Menu.
+9. VIEW PERFORMANCE
+This allows you to keep track of your past performance and indicates the percentage of completed and incomplete tasks. You can also choose “View Performance” option under “View” Menu.
+10. EXIT
+This will close 2Do but the application will continue to run in the background.
+11. HELP
+You can learn how to use 2Do through our Quick Start Guide available in the “Help” Menu. You can also view the syntax of commands and product details in the “Help” Menu.
+Additional Features:
+1.Smart Slots:
+This feature allows you to choose a date in the given timeline and schedule your event in that day’s timetable based on free time slots available. You can either choose the time slot manually or the system will automatically assign a free slot for the event.
+2.Calendar:
+The calendar is displayed on the left side of the window. Selecting any date will display the day’s events in the decreasing order of importance in the Display Box.
+3.Reminders:
+The system notifies you of impending deadlines through a pop‐up box even if the application is not running in the front end. Reminder service can be enabled by specifying the “reminder” field while adding/editing an event along with information on how long before the deadline you wish to be notified.

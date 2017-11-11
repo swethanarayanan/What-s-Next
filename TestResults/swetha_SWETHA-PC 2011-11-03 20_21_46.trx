@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e7908fc7-d33a-47bf-8699-f5194c092eae" name="swetha@SWETHA-PC 2011-11-03 20:21:46" runUser="swetha-PC\swetha" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b21702a2-9836-4126-a17e-03b0bebd3b20">
+    <Deployment runDeploymentRoot="swetha_SWETHA-PC 2011-11-03 20_21_46">
+      <DeploymentItem filename="C:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.Design.4.0.dll" />
+      <DeploymentItem filename="C:\Users\swetha\Desktop\[F9S2][V0.2]\bin\Debug\ToDoList.exe" />
+      <DeploymentItem filename="C:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-03T20:21:46.3761130+08:00" queuing="2011-11-03T20:21:46.5791246+08:00" start="2011-11-03T20:21:46.5861250+08:00" finish="2011-11-03T20:21:47.2331620+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="4" error="0" failed="3" timeout="0" aborted="0" inconclusive="2" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="creatDateEventObjectTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="e9b74553-7fc7-95c9-25d0-b7874d99b8a9">
+      <Execution id="4f8bfb37-6b7c-4aeb-82c9-83e82f709715" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="creatDateEventObjectTest" />
+    </UnitTest>
+    <UnitTest name="retrieveIDsofARepeatingEventTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="925ad92f-eb92-bb63-9789-954a688bb8e8">
+      <DeploymentItems>
+        <DeploymentItem filename="ToDoList.exe" />
+      </DeploymentItems>
+      <Execution id="6e68d643-89bc-46d9-83ab-227b3ec45ecb" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="retrieveIDsofARepeatingEventTest" />
+    </UnitTest>
+    <UnitTest name="getDisplayMessageTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="291e0111-5060-6201-9181-18664685707f">
+      <Execution id="7f5137f2-6faf-4f28-9a3d-f2818eee4501" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getDisplayMessageTest" />
+    </UnitTest>
+    <UnitTest name="ViewPerformanceTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="52efca71-c2b4-2100-e456-82aad3268b34">
+      <Execution id="861a7fc7-bd79-47da-97e5-5984228d75b9" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ViewPerformanceTest" />
+    </UnitTest>
+    <UnitTest name="decideOntaskTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="e32f1aed-f336-c4fd-21d1-5fdc235f2a77">
+      <Execution id="e47f0a03-eac5-4f37-9721-1a03eb31be76" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="decideOntaskTest" />
+    </UnitTest>
+    <UnitTest name="OperationConstructorTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="5141cc8e-20fe-88ce-b820-67219233a4d3">
+      <Execution id="e954da31-808f-43a3-8847-41e2ff9bb68a" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OperationConstructorTest" />
+    </UnitTest>
+    <UnitTest name="checkIfautoschedulingNeededTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="87e67f6d-2fa7-4327-a78f-5fb26993d993">
+      <DeploymentItems>
+        <DeploymentItem filename="ToDoList.exe" />
+      </DeploymentItems>
+      <Execution id="601a4c67-e84e-4741-a36f-92a7d7c3f0e4" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkIfautoschedulingNeededTest" />
+    </UnitTest>
+    <UnitTest name="UndoTaskTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="412933ba-ed76-9d75-6753-b155abf65729">
+      <DeploymentItems>
+        <DeploymentItem filename="ToDoList.exe" />
+      </DeploymentItems>
+      <Execution id="ce5f38bf-b8de-4d9a-81ac-cf685dac455d" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UndoTaskTest" />
+    </UnitTest>
+    <UnitTest name="displayTimeLineWithEventsTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="d8442adf-139d-dab4-2a85-7eff04e87ab5">
+      <Execution id="094b77a8-a03d-4ed4-abcf-0c7ded9870f3" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="displayTimeLineWithEventsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="291e0111-5060-6201-9181-18664685707f" executionId="7f5137f2-6faf-4f28-9a3d-f2818eee4501" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="412933ba-ed76-9d75-6753-b155abf65729" executionId="ce5f38bf-b8de-4d9a-81ac-cf685dac455d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5141cc8e-20fe-88ce-b820-67219233a4d3" executionId="e954da31-808f-43a3-8847-41e2ff9bb68a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52efca71-c2b4-2100-e456-82aad3268b34" executionId="861a7fc7-bd79-47da-97e5-5984228d75b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87e67f6d-2fa7-4327-a78f-5fb26993d993" executionId="601a4c67-e84e-4741-a36f-92a7d7c3f0e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="925ad92f-eb92-bb63-9789-954a688bb8e8" executionId="6e68d643-89bc-46d9-83ab-227b3ec45ecb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8442adf-139d-dab4-2a85-7eff04e87ab5" executionId="094b77a8-a03d-4ed4-abcf-0c7ded9870f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e32f1aed-f336-c4fd-21d1-5fdc235f2a77" executionId="e47f0a03-eac5-4f37-9721-1a03eb31be76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9b74553-7fc7-95c9-25d0-b7874d99b8a9" executionId="4f8bfb37-6b7c-4aeb-82c9-83e82f709715" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7f5137f2-6faf-4f28-9a3d-f2818eee4501" testId="291e0111-5060-6201-9181-18664685707f" testName="getDisplayMessageTest" computerName="SWETHA-PC" duration="00:00:00.1094531" startTime="2011-11-03T20:21:46.5891251+08:00" endTime="2011-11-03T20:21:46.8951427+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f5137f2-6faf-4f28-9a3d-f2818eee4501">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce5f38bf-b8de-4d9a-81ac-cf685dac455d" testId="412933ba-ed76-9d75-6753-b155abf65729" testName="UndoTaskTest" computerName="SWETHA-PC" duration="00:00:00.0299992" startTime="2011-11-03T20:21:46.9021431+08:00" endTime="2011-11-03T20:21:46.9371451+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce5f38bf-b8de-4d9a-81ac-cf685dac455d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.OperationTest.UndoTaskTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at ToDoList.Operation_Accessor.UndoTask()
+   at TestProject1.OperationTest.UndoTaskTest() in C:\Users\swetha\Desktop\[F9S2][V0.2]\TestProject1\OperationTest.cs:line 100
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e954da31-808f-43a3-8847-41e2ff9bb68a" testId="5141cc8e-20fe-88ce-b820-67219233a4d3" testName="OperationConstructorTest" computerName="SWETHA-PC" duration="00:00:00.0006940" startTime="2011-11-03T20:21:46.9421453+08:00" endTime="2011-11-03T20:21:46.9471456+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e954da31-808f-43a3-8847-41e2ff9bb68a">
+    </UnitTestResult>
+    <UnitTestResult executionId="861a7fc7-bd79-47da-97e5-5984228d75b9" testId="52efca71-c2b4-2100-e456-82aad3268b34" testName="ViewPerformanceTest" computerName="SWETHA-PC" duration="00:00:00.0144458" startTime="2011-11-03T20:21:46.9541460+08:00" endTime="2011-11-03T20:21:46.9801475+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="861a7fc7-bd79-47da-97e5-5984228d75b9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.OperationTest.ViewPerformanceTest() in C:\Users\swetha\Desktop\[F9S2][V0.2]\TestProject1\OperationTest.cs:line 118
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="601a4c67-e84e-4741-a36f-92a7d7c3f0e4" testId="87e67f6d-2fa7-4327-a78f-5fb26993d993" testName="checkIfautoschedulingNeededTest" computerName="SWETHA-PC" duration="00:00:00.0029426" startTime="2011-11-03T20:21:46.9861479+08:00" endTime="2011-11-03T20:21:46.9951484+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="601a4c67-e84e-4741-a36f-92a7d7c3f0e4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.OperationTest.checkIfautoschedulingNeededTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at ToDoList.Operation_Accessor.checkIfautoschedulingNeeded(TaskDetails_Accessor objectDetailsOfTask)
+   at TestProject1.OperationTest.checkIfautoschedulingNeededTest() in C:\Users\swetha\Desktop\[F9S2][V0.2]\TestProject1\OperationTest.cs:line 135
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e68d643-89bc-46d9-83ab-227b3ec45ecb" testId="925ad92f-eb92-bb63-9789-954a688bb8e8" testName="retrieveIDsofARepeatingEventTest" computerName="SWETHA-PC" duration="00:00:00.0020799" startTime="2011-11-03T20:21:47.0071491+08:00" endTime="2011-11-03T20:21:47.0141495+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e68d643-89bc-46d9-83ab-227b3ec45ecb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.OperationTest.retrieveIDsofARepeatingEventTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at ToDoList.Operation_Accessor.retrieveIDsofARepeatingEvent(Int32 id)
+   at TestProject1.OperationTest.retrieveIDsofARepeatingEventTest() in C:\Users\swetha\Desktop\[F9S2][V0.2]\TestProject1\OperationTest.cs:line 223
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="094b77a8-a03d-4ed4-abcf-0c7ded9870f3" testId="d8442adf-139d-dab4-2a85-7eff04e87ab5" testName="displayTimeLineWithEventsTest" computerName="SWETHA-PC" duration="00:00:00.0036613" startTime="2011-11-03T20:21:47.0191497+08:00" endTime="2011-11-03T20:21:47.0281503+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="094b77a8-a03d-4ed4-abcf-0c7ded9870f3">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.OperationTest.displayTimeLineWithEventsTest() in C:\Users\swetha\Desktop\[F9S2][V0.2]\TestProject1\OperationTest.cs:line 191
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e47f0a03-eac5-4f37-9721-1a03eb31be76" testId="e32f1aed-f336-c4fd-21d1-5fdc235f2a77" testName="decideOntaskTest" computerName="SWETHA-PC" duration="00:00:00.0033860" startTime="2011-11-03T20:21:47.0351507+08:00" endTime="2011-11-03T20:21:47.0441512+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e47f0a03-eac5-4f37-9721-1a03eb31be76">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f8bfb37-6b7c-4aeb-82c9-83e82f709715" testId="e9b74553-7fc7-95c9-25d0-b7874d99b8a9" testName="creatDateEventObjectTest" computerName="SWETHA-PC" duration="00:00:00.0010647" startTime="2011-11-03T20:21:47.0461513+08:00" endTime="2011-11-03T20:21:47.0531517+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f8bfb37-6b7c-4aeb-82c9-83e82f709715">
+    </UnitTestResult>
+  </Results>
+</TestRun>

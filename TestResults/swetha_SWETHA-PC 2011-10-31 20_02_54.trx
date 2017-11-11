@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="67f6e1a1-8c4e-4fc7-9bdc-c84aded8777b" name="swetha@SWETHA-PC 2011-10-31 20:02:54" runUser="swetha-PC\swetha" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6162c3b6-876d-4b34-81c6-d6c2edded6c6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="swetha_SWETHA-PC 2011-10-31 20_02_54">
+      <DeploymentItem filename="c:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.dll" />
+      <DeploymentItem filename="c:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.Design.4.0.dll" />
+      <DeploymentItem filename="C:\Users\swetha\Dropbox\CS2103\[F9S2][V0.2]-Swetha\[F9S2][V0.2]\bin\Debug\ToDoList.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-31T20:02:54.5181028+08:00" queuing="2011-10-31T20:02:56.0091881+08:00" start="2011-10-31T20:02:56.0501904+08:00" finish="2011-10-31T20:02:56.3342067+08:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SWETHA-PC" outcome="Warning" timestamp="2011-10-31T20:02:56.0081880+08:00">
+        <Text>Deployment is currently disabled. The deployment item 'ToDoList.exe' on test 'TestProject1.OperationTest.InitialiseTaskDetailParameterTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InitialiseTaskDetailParameterTest" storage="c:\users\swetha\dropbox\cs2103\[f9s2][v0.2]-swetha\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="1be30739-e511-07ee-0e28-6bbaac8ca115">
+      <DeploymentItems>
+        <DeploymentItem filename="ToDoList.exe" />
+      </DeploymentItems>
+      <Execution id="06f86579-b2fc-42e3-a8ae-6a1720fe4a1b" />
+      <TestMethod codeBase="C:/Users/swetha/Dropbox/CS2103/[F9S2][V0.2]-Swetha/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitialiseTaskDetailParameterTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1be30739-e511-07ee-0e28-6bbaac8ca115" executionId="06f86579-b2fc-42e3-a8ae-6a1720fe4a1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="06f86579-b2fc-42e3-a8ae-6a1720fe4a1b" testId="1be30739-e511-07ee-0e28-6bbaac8ca115" testName="InitialiseTaskDetailParameterTest" computerName="SWETHA-PC" duration="00:00:00.0342816" startTime="2011-10-31T20:02:56.0701916+08:00" endTime="2011-10-31T20:02:56.3102053+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06f86579-b2fc-42e3-a8ae-6a1720fe4a1b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

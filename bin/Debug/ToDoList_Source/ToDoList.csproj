@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF8487CE-19E3-48CF-8086-3995CD472B42}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>ToDoList</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ToDoList</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Name>PresentationCore</Name>
+      <HintPath>PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Name>PresentationFramework</Name>
+      <HintPath>PresentationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <Name>System.Core</Name>
+      <HintPath>System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <HintPath>System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <Name>System.Xaml</Name>
+      <HintPath>System.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <Name>WindowsBase</Name>
+      <HintPath>WindowsBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList.Properties\Resources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList.Properties\Settings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\add_event.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\App.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\Conversions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\Database.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\DateEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\delete_event.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\done.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\edit_event.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\Event.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\Eventsoftheday.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\History.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\HistoryDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\IntellisenseDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\ListBoxContent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\MainWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\Operation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\Parser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\Remainder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\TaskDetails.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToDoList\Window1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="ToDoList.Properties.Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

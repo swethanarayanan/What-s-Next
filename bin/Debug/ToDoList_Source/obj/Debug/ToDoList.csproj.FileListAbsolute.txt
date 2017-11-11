@@ -1,0 +1,4 @@
+C:\Users\swetha\Desktop\[F9S2][V0.1]\ToDoList\bin\Debug\ToDoList_Source\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\swetha\Desktop\[F9S2][V0.1]\ToDoList\bin\Debug\ToDoList_Source\obj\Debug\ToDoList.ToDoList.Properties.Resources.resources
+C:\Users\swetha\Desktop\[F9S2][V0.1]\ToDoList\bin\Debug\ToDoList_Source\obj\Debug\ResGen.read.1.tlog
+C:\Users\swetha\Desktop\[F9S2][V0.1]\ToDoList\bin\Debug\ToDoList_Source\obj\Debug\ResGen.write.1.tlog

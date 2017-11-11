@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bcb994a8-725c-4109-8088-62eff5d07673" name="swetha@SWETHA-PC 2011-11-03 20:25:59" runUser="swetha-PC\swetha" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b38eb682-f31d-4e37-87fa-72604517141a">
+    <Deployment runDeploymentRoot="swetha_SWETHA-PC 2011-11-03 20_25_59">
+      <DeploymentItem filename="C:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.Design.4.0.dll" />
+      <DeploymentItem filename="C:\Users\swetha\Desktop\[F9S2][V0.2]\bin\Debug\ToDoList.exe" />
+      <DeploymentItem filename="C:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-03T20:25:59.4625887+08:00" queuing="2011-11-03T20:25:59.5955963+08:00" start="2011-11-03T20:25:59.6055969+08:00" finish="2011-11-03T20:26:00.2726350+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="22" executed="22" passed="22" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TaskDetailsConstructorTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="01862544-0151-bc4b-eef2-c78231c46765">
+      <Execution id="ad4b1575-f40e-4ca9-8310-d085fcffa3e3" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.TaskDetailsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskDetailsConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ConvertDateTo_ddmmyyFormatTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="a24feab6-c418-b744-08a0-4d987df3755e">
+      <Execution id="dc959683-91aa-493b-be63-0279d38dbd7d" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertDateTo_ddmmyyFormatTest" />
+    </UnitTest>
+    <UnitTest name="OperationConstructorTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="5141cc8e-20fe-88ce-b820-67219233a4d3">
+      <Execution id="b87511a6-3a42-47ab-8f60-e3c4bafe34d2" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OperationConstructorTest" />
+    </UnitTest>
+    <UnitTest name="getDisplayMessageTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="291e0111-5060-6201-9181-18664685707f">
+      <Execution id="ac1e6409-2632-470d-af91-4a560cb45ecc" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getDisplayMessageTest" />
+    </UnitTest>
+    <UnitTest name="checkForWhatCommandTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="290985ae-7290-ffa5-ddf3-dc1ad7073d30">
+      <Execution id="7a28ae48-4f6f-4db4-9619-4d366f86b2fa" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ParserTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkForWhatCommandTest" />
+    </UnitTest>
+    <UnitTest name="ConvertStringToDateTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="42896bde-65ce-41ec-f595-fe8fc0dfa1cc">
+      <Execution id="0afdd4c3-fdff-4a28-baa7-8579cb68b43b" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertStringToDateTest" />
+    </UnitTest>
+    <UnitTest name="Convert12HourFormatTo24HourFormatTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="7ecba722-39b2-0c77-caeb-80d5158acb13">
+      <Execution id="c6005e87-992e-48eb-8d5d-5a4cb4465d28" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Convert12HourFormatTo24HourFormatTest" />
+    </UnitTest>
+    <UnitTest name="interpretRepeatAsNumberOfDaysTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="b9f0d8f2-3773-3983-9410-797e7d452424">
+      <Execution id="e2721555-ebe0-4a9a-a70c-5edecc4582cd" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interpretRepeatAsNumberOfDaysTest" />
+    </UnitTest>
+    <UnitTest name="ConvertDaysToHoursTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="be2fd57d-61da-8654-9530-0824be4b4617">
+      <Execution id="12288ca6-e74a-4418-ba32-7ad5168eaf04" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertDaysToHoursTest" />
+    </UnitTest>
+    <UnitTest name="ConvertArrayOfStringIntoListOfIntTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="5675f85b-0061-ff5b-47b5-0e0ff0baf33a">
+      <Execution id="31ab3b23-0241-4fa0-afad-8af5ccbf6adb" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertArrayOfStringIntoListOfIntTest" />
+    </UnitTest>
+    <UnitTest name="ParserConstructorTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="f33f9546-63a0-b1f3-2ab6-cbded7caec2c">
+      <Execution id="f8e405b8-3f67-4f8b-8a6f-bb66acb861e6" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ParserTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParserConstructorTest" />
+    </UnitTest>
+    <UnitTest name="replaceWithAppropriateShortFormsTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="2f37fc18-21b3-d1f0-4925-6942082d2bd1">
+      <Execution id="a0f06a6b-cd22-4c93-9e98-01951a62c107" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="replaceWithAppropriateShortFormsTest" />
+    </UnitTest>
+    <UnitTest name="creatDateEventObjectTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="e9b74553-7fc7-95c9-25d0-b7874d99b8a9">
+      <Execution id="3ea1d394-69c4-4540-bc06-ba63ccf116ac" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="creatDateEventObjectTest" />
+    </UnitTest>
+    <UnitTest name="ConvertMinutesToHoursTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="430f73b7-e7f8-467a-7ebe-d31af806a242">
+      <Execution id="9104533e-a21a-4d06-ae26-8f517e41994b" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertMinutesToHoursTest" />
+    </UnitTest>
+    <UnitTest name="SyntaxOfTextboxTextTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="811d5f4a-7ec9-8777-9423-ab65d6cc47b8">
+      <Execution id="294f3d82-bdf2-4968-8b4f-96caa8ddc2df" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ParserTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SyntaxOfTextboxTextTest" />
+    </UnitTest>
+    <UnitTest name="durationOrRemainderToTotalHoursTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="b2b3dc86-0c03-574e-f4bf-d904f295279c">
+      <Execution id="0e67ad06-f4b6-4360-b850-064933bfa20a" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="durationOrRemainderToTotalHoursTest" />
+    </UnitTest>
+    <UnitTest name="convertStringIntoTaskDetailsTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="3c7e691a-d362-ee99-61a4-6a800be63181">
+      <Execution id="095fa79d-5ea0-4bf6-b03c-efc70013b658" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="convertStringIntoTaskDetailsTest" />
+    </UnitTest>
+    <UnitTest name="Convert24HourFormatTo12HourFormatTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="817bc3d3-de9f-2eb0-74c0-fdf6f97a120b">
+      <Execution id="3da7c946-4658-4088-a0de-cc0b92b7bc1b" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Convert24HourFormatTo12HourFormatTest" />
+    </UnitTest>
+    <UnitTest name="decideOntaskTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="e32f1aed-f336-c4fd-21d1-5fdc235f2a77">
+      <Execution id="14d585ab-70ac-46d3-aa2b-23a99b597559" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="decideOntaskTest" />
+    </UnitTest>
+    <UnitTest name="HelpUserWriteCommandTest1" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="7be700b9-d314-da17-fd2a-788053f6a1ad">
+      <Execution id="1bb337a4-8509-48d5-8b54-bc1fbf69391e" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ParserTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HelpUserWriteCommandTest1" />
+    </UnitTest>
+    <UnitTest name="CheckIfCommandAndContentValidTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="a3deb1a3-2ddb-ef40-25c9-0384b9a77a99">
+      <Execution id="2bbd7600-5cb9-4335-9482-130e07751b09" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ParserTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfCommandAndContentValidTest" />
+    </UnitTest>
+    <UnitTest name="ConvertSecondsToHoursTest" storage="c:\users\swetha\desktop\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="9164ae3e-5109-fabb-4d9d-d3f2554d728d">
+      <Execution id="dfdd48c8-ea36-4ad1-9d58-66d6b5012ec1" />
+      <TestMethod codeBase="C:/Users/swetha/Desktop/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ConversionsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertSecondsToHoursTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="01862544-0151-bc4b-eef2-c78231c46765" executionId="ad4b1575-f40e-4ca9-8310-d085fcffa3e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="290985ae-7290-ffa5-ddf3-dc1ad7073d30" executionId="7a28ae48-4f6f-4db4-9619-4d366f86b2fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="291e0111-5060-6201-9181-18664685707f" executionId="ac1e6409-2632-470d-af91-4a560cb45ecc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f37fc18-21b3-d1f0-4925-6942082d2bd1" executionId="a0f06a6b-cd22-4c93-9e98-01951a62c107" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c7e691a-d362-ee99-61a4-6a800be63181" executionId="095fa79d-5ea0-4bf6-b03c-efc70013b658" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42896bde-65ce-41ec-f595-fe8fc0dfa1cc" executionId="0afdd4c3-fdff-4a28-baa7-8579cb68b43b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="430f73b7-e7f8-467a-7ebe-d31af806a242" executionId="9104533e-a21a-4d06-ae26-8f517e41994b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5141cc8e-20fe-88ce-b820-67219233a4d3" executionId="b87511a6-3a42-47ab-8f60-e3c4bafe34d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5675f85b-0061-ff5b-47b5-0e0ff0baf33a" executionId="31ab3b23-0241-4fa0-afad-8af5ccbf6adb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7be700b9-d314-da17-fd2a-788053f6a1ad" executionId="1bb337a4-8509-48d5-8b54-bc1fbf69391e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ecba722-39b2-0c77-caeb-80d5158acb13" executionId="c6005e87-992e-48eb-8d5d-5a4cb4465d28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="811d5f4a-7ec9-8777-9423-ab65d6cc47b8" executionId="294f3d82-bdf2-4968-8b4f-96caa8ddc2df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="817bc3d3-de9f-2eb0-74c0-fdf6f97a120b" executionId="3da7c946-4658-4088-a0de-cc0b92b7bc1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9164ae3e-5109-fabb-4d9d-d3f2554d728d" executionId="dfdd48c8-ea36-4ad1-9d58-66d6b5012ec1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a24feab6-c418-b744-08a0-4d987df3755e" executionId="dc959683-91aa-493b-be63-0279d38dbd7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3deb1a3-2ddb-ef40-25c9-0384b9a77a99" executionId="2bbd7600-5cb9-4335-9482-130e07751b09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2b3dc86-0c03-574e-f4bf-d904f295279c" executionId="0e67ad06-f4b6-4360-b850-064933bfa20a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9f0d8f2-3773-3983-9410-797e7d452424" executionId="e2721555-ebe0-4a9a-a70c-5edecc4582cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be2fd57d-61da-8654-9530-0824be4b4617" executionId="12288ca6-e74a-4418-ba32-7ad5168eaf04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e32f1aed-f336-c4fd-21d1-5fdc235f2a77" executionId="14d585ab-70ac-46d3-aa2b-23a99b597559" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9b74553-7fc7-95c9-25d0-b7874d99b8a9" executionId="3ea1d394-69c4-4540-bc06-ba63ccf116ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f33f9546-63a0-b1f3-2ab6-cbded7caec2c" executionId="f8e405b8-3f67-4f8b-8a6f-bb66acb861e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ad4b1575-f40e-4ca9-8310-d085fcffa3e3" testId="01862544-0151-bc4b-eef2-c78231c46765" testName="TaskDetailsConstructorTest" computerName="SWETHA-PC" duration="00:00:00.0433611" startTime="2011-11-03T20:25:59.6085970+08:00" endTime="2011-11-03T20:25:59.8326098+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad4b1575-f40e-4ca9-8310-d085fcffa3e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a28ae48-4f6f-4db4-9619-4d366f86b2fa" testId="290985ae-7290-ffa5-ddf3-dc1ad7073d30" testName="checkForWhatCommandTest" computerName="SWETHA-PC" duration="00:00:00.0025584" startTime="2011-11-03T20:25:59.8346100+08:00" endTime="2011-11-03T20:25:59.8456106+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a28ae48-4f6f-4db4-9619-4d366f86b2fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="ac1e6409-2632-470d-af91-4a560cb45ecc" testId="291e0111-5060-6201-9181-18664685707f" testName="getDisplayMessageTest" computerName="SWETHA-PC" duration="00:00:00.0011517" startTime="2011-11-03T20:25:59.8486108+08:00" endTime="2011-11-03T20:25:59.8556112+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac1e6409-2632-470d-af91-4a560cb45ecc">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0f06a6b-cd22-4c93-9e98-01951a62c107" testId="2f37fc18-21b3-d1f0-4925-6942082d2bd1" testName="replaceWithAppropriateShortFormsTest" computerName="SWETHA-PC" duration="00:00:00.0013762" startTime="2011-11-03T20:25:59.8566112+08:00" endTime="2011-11-03T20:25:59.8656117+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0f06a6b-cd22-4c93-9e98-01951a62c107">
+    </UnitTestResult>
+    <UnitTestResult executionId="095fa79d-5ea0-4bf6-b03c-efc70013b658" testId="3c7e691a-d362-ee99-61a4-6a800be63181" testName="convertStringIntoTaskDetailsTest" computerName="SWETHA-PC" duration="00:00:00.0017561" startTime="2011-11-03T20:25:59.8676118+08:00" endTime="2011-11-03T20:25:59.8766124+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="095fa79d-5ea0-4bf6-b03c-efc70013b658">
+    </UnitTestResult>
+    <UnitTestResult executionId="0afdd4c3-fdff-4a28-baa7-8579cb68b43b" testId="42896bde-65ce-41ec-f595-fe8fc0dfa1cc" testName="ConvertStringToDateTest" computerName="SWETHA-PC" duration="00:00:00.0020287" startTime="2011-11-03T20:25:59.8776124+08:00" endTime="2011-11-03T20:25:59.8866129+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0afdd4c3-fdff-4a28-baa7-8579cb68b43b">
+    </UnitTestResult>
+    <UnitTestResult executionId="9104533e-a21a-4d06-ae26-8f517e41994b" testId="430f73b7-e7f8-467a-7ebe-d31af806a242" testName="ConvertMinutesToHoursTest" computerName="SWETHA-PC" duration="00:00:00.0004600" startTime="2011-11-03T20:25:59.8886131+08:00" endTime="2011-11-03T20:25:59.8946134+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9104533e-a21a-4d06-ae26-8f517e41994b">
+    </UnitTestResult>
+    <UnitTestResult executionId="b87511a6-3a42-47ab-8f60-e3c4bafe34d2" testId="5141cc8e-20fe-88ce-b820-67219233a4d3" testName="OperationConstructorTest" computerName="SWETHA-PC" duration="00:00:00.0002968" startTime="2011-11-03T20:25:59.8986136+08:00" endTime="2011-11-03T20:25:59.9036139+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b87511a6-3a42-47ab-8f60-e3c4bafe34d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="31ab3b23-0241-4fa0-afad-8af5ccbf6adb" testId="5675f85b-0061-ff5b-47b5-0e0ff0baf33a" testName="ConvertArrayOfStringIntoListOfIntTest" computerName="SWETHA-PC" duration="00:00:00.0006771" startTime="2011-11-03T20:25:59.9086142+08:00" endTime="2011-11-03T20:25:59.9146145+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31ab3b23-0241-4fa0-afad-8af5ccbf6adb">
+    </UnitTestResult>
+    <UnitTestResult executionId="1bb337a4-8509-48d5-8b54-bc1fbf69391e" testId="7be700b9-d314-da17-fd2a-788053f6a1ad" testName="HelpUserWriteCommandTest1" computerName="SWETHA-PC" duration="00:00:00.0008530" startTime="2011-11-03T20:25:59.9156146+08:00" endTime="2011-11-03T20:25:59.9216149+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bb337a4-8509-48d5-8b54-bc1fbf69391e">
+    </UnitTestResult>
+    <UnitTestResult executionId="c6005e87-992e-48eb-8d5d-5a4cb4465d28" testId="7ecba722-39b2-0c77-caeb-80d5158acb13" testName="Convert12HourFormatTo24HourFormatTest" computerName="SWETHA-PC" duration="00:00:00.0015471" startTime="2011-11-03T20:25:59.9236151+08:00" endTime="2011-11-03T20:25:59.9306155+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6005e87-992e-48eb-8d5d-5a4cb4465d28">
+    </UnitTestResult>
+    <UnitTestResult executionId="294f3d82-bdf2-4968-8b4f-96caa8ddc2df" testId="811d5f4a-7ec9-8777-9423-ab65d6cc47b8" testName="SyntaxOfTextboxTextTest" computerName="SWETHA-PC" duration="00:00:00.0013804" startTime="2011-11-03T20:25:59.9336156+08:00" endTime="2011-11-03T20:25:59.9396160+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="294f3d82-bdf2-4968-8b4f-96caa8ddc2df">
+    </UnitTestResult>
+    <UnitTestResult executionId="3da7c946-4658-4088-a0de-cc0b92b7bc1b" testId="817bc3d3-de9f-2eb0-74c0-fdf6f97a120b" testName="Convert24HourFormatTo12HourFormatTest" computerName="SWETHA-PC" duration="00:00:00.0007375" startTime="2011-11-03T20:25:59.9426161+08:00" endTime="2011-11-03T20:25:59.9476164+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3da7c946-4658-4088-a0de-cc0b92b7bc1b">
+    </UnitTestResult>
+    <UnitTestResult executionId="dfdd48c8-ea36-4ad1-9d58-66d6b5012ec1" testId="9164ae3e-5109-fabb-4d9d-d3f2554d728d" testName="ConvertSecondsToHoursTest" computerName="SWETHA-PC" duration="00:00:00.0005092" startTime="2011-11-03T20:25:59.9496165+08:00" endTime="2011-11-03T20:25:59.9536168+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfdd48c8-ea36-4ad1-9d58-66d6b5012ec1">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc959683-91aa-493b-be63-0279d38dbd7d" testId="a24feab6-c418-b744-08a0-4d987df3755e" testName="ConvertDateTo_ddmmyyFormatTest" computerName="SWETHA-PC" duration="00:00:00.0005335" startTime="2011-11-03T20:25:59.9556169+08:00" endTime="2011-11-03T20:25:59.9606172+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc959683-91aa-493b-be63-0279d38dbd7d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2bbd7600-5cb9-4335-9482-130e07751b09" testId="a3deb1a3-2ddb-ef40-25c9-0384b9a77a99" testName="CheckIfCommandAndContentValidTest" computerName="SWETHA-PC" duration="00:00:00.0011810" startTime="2011-11-03T20:25:59.9626173+08:00" endTime="2011-11-03T20:25:59.9686176+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bbd7600-5cb9-4335-9482-130e07751b09">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e67ad06-f4b6-4360-b850-064933bfa20a" testId="b2b3dc86-0c03-574e-f4bf-d904f295279c" testName="durationOrRemainderToTotalHoursTest" computerName="SWETHA-PC" duration="00:00:00.0010347" startTime="2011-11-03T20:25:59.9706177+08:00" endTime="2011-11-03T20:25:59.9756180+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e67ad06-f4b6-4360-b850-064933bfa20a">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2721555-ebe0-4a9a-a70c-5edecc4582cd" testId="b9f0d8f2-3773-3983-9410-797e7d452424" testName="interpretRepeatAsNumberOfDaysTest" computerName="SWETHA-PC" duration="00:00:00.0013454" startTime="2011-11-03T20:25:59.9776181+08:00" endTime="2011-11-03T20:25:59.9836185+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2721555-ebe0-4a9a-a70c-5edecc4582cd">
+    </UnitTestResult>
+    <UnitTestResult executionId="12288ca6-e74a-4418-ba32-7ad5168eaf04" testId="be2fd57d-61da-8654-9530-0824be4b4617" testName="ConvertDaysToHoursTest" computerName="SWETHA-PC" duration="00:00:00.0006478" startTime="2011-11-03T20:25:59.9846185+08:00" endTime="2011-11-03T20:25:59.9896188+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12288ca6-e74a-4418-ba32-7ad5168eaf04">
+    </UnitTestResult>
+    <UnitTestResult executionId="14d585ab-70ac-46d3-aa2b-23a99b597559" testId="e32f1aed-f336-c4fd-21d1-5fdc235f2a77" testName="decideOntaskTest" computerName="SWETHA-PC" duration="00:00:00.0031566" startTime="2011-11-03T20:25:59.9916189+08:00" endTime="2011-11-03T20:25:59.9986193+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14d585ab-70ac-46d3-aa2b-23a99b597559">
+    </UnitTestResult>
+    <UnitTestResult executionId="3ea1d394-69c4-4540-bc06-ba63ccf116ac" testId="e9b74553-7fc7-95c9-25d0-b7874d99b8a9" testName="creatDateEventObjectTest" computerName="SWETHA-PC" duration="00:00:00.0007229" startTime="2011-11-03T20:26:00.0006195+08:00" endTime="2011-11-03T20:26:00.0056197+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ea1d394-69c4-4540-bc06-ba63ccf116ac">
+    </UnitTestResult>
+    <UnitTestResult executionId="f8e405b8-3f67-4f8b-8a6f-bb66acb861e6" testId="f33f9546-63a0-b1f3-2ab6-cbded7caec2c" testName="ParserConstructorTest" computerName="SWETHA-PC" duration="00:00:00.0008803" startTime="2011-11-03T20:26:00.0076199+08:00" endTime="2011-11-03T20:26:00.0136202+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8e405b8-3f67-4f8b-8a6f-bb66acb861e6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="35d2ca0f-1780-4938-bb70-30f3b4b64298" name="swetha@SWETHA-PC 2011-10-31 20:40:18" runUser="swetha-PC\swetha" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6162c3b6-876d-4b34-81c6-d6c2edded6c6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="swetha_SWETHA-PC 2011-10-31 20_40_18">
+      <DeploymentItem filename="c:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.dll" />
+      <DeploymentItem filename="c:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.Design.4.0.dll" />
+      <DeploymentItem filename="C:\Users\swetha\Dropbox\CS2103\[F9S2][V0.2]-Swetha\[F9S2][V0.2]\bin\Debug\ToDoList.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-31T20:40:18.9944795+08:00" queuing="2011-10-31T20:40:19.0084803+08:00" start="2011-10-31T20:40:19.0214811+08:00" finish="2011-10-31T20:40:19.3124977+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OperationConstructorTest" storage="c:\users\swetha\dropbox\cs2103\[f9s2][v0.2]-swetha\[f9s2][v0.2]\testproject1\bin\debug\testproject1.dll" id="5141cc8e-20fe-88ce-b820-67219233a4d3">
+      <Execution id="5b41793d-0e82-4213-97a3-b95d1ddb08b4" />
+      <TestMethod codeBase="C:/Users/swetha/Dropbox/CS2103/[F9S2][V0.2]-Swetha/[F9S2][V0.2]/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.OperationTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OperationConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5141cc8e-20fe-88ce-b820-67219233a4d3" executionId="5b41793d-0e82-4213-97a3-b95d1ddb08b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5b41793d-0e82-4213-97a3-b95d1ddb08b4" testId="5141cc8e-20fe-88ce-b820-67219233a4d3" testName="OperationConstructorTest" computerName="SWETHA-PC" duration="00:00:00.0209051" startTime="2011-10-31T20:40:19.0334817+08:00" endTime="2011-10-31T20:40:19.2884963+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b41793d-0e82-4213-97a3-b95d1ddb08b4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

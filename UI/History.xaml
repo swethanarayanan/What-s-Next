@@ -1,0 +1,9 @@
+﻿<Window x:Class="ToDoList.History"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="What's Next? - History" SizeToContent="WidthAndHeight" >
+    <Grid>
+        <DataGrid Name="datagrid" AutoGenerateColumns="True" Height="Auto" HorizontalAlignment="Left" Margin="22,41,0,0" VerticalAlignment="Top" Width="Auto" SelectionChanged="datagrid_SelectionChanged" CanUserAddRows="{Binding}" CanUserDeleteRows="True" ItemsSource="{Binding eventHistoryObject}" ColumnWidth="95" Grid.Column="1" Grid.ColumnSpan="2" FrozenColumnCount="1" />
+        <!--DataGrid Name="datagrid" AutoGenerateColumns="False" Height="208" HorizontalAlignment="Left" Margin="22,41,0,0"  VerticalAlignment="Top" Width="226" ItemsSource="{Binding}" SelectionChanged="datagrid_SelectionChanged" -->
+    </Grid>
+</Window>

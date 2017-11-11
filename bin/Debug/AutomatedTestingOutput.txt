@@ -1,0 +1,122 @@
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Please enter a valid Event Name
+
+Please enter a valid Event Name
+Please enter a valid Event Name
+Added!
+Added!
+Start date has invalid month.Please check with your system date format
+Start date has invalid month.Please check with your system date format
+Start date has invalid month.Please check with your system date format
+Start date has invalid day.Please check with your system date format
+Start date occurs after end date
+Added!
+Start date has invalid month.Please check with your system date format
+Start date has invalid month.Please check with your system date format
+Start date has invalid day.Please check with your system date format
+Start date occurs after end date
+Start date has invalid month.Please check with your system date format
+Added!
+Start date has invalid month.Please check with your system date format
+Start date has invalid day.Please check with your system date format
+Start date occurs after end date
+Start date has invalid month.Please check with your system date format
+Start date has invalid month.Please check with your system date format
+Start date has invalid month.Please check with your system date format
+Start date has invalid day.Please check with your system date format
+Start date occurs after end date
+End date has invalid month.Please check with your system date format
+Start date occurs after end date
+Start date occurs after end date
+Start date has invalid day.Please check with your system date format
+Start date has invalid day.Please check with your system date format
+Start date has invalid value.Please check with your system date format
+Start date has invalid value.Please check with your system date format
+Start date has invalid value.Please check with your system date format
+Start date has invalid value.Please check with your system date format
+Added!
+Please enter a valid Event Name
+Please enter a valid Event Name
+Please enter a valid Event Name
+Search Complete
+Please enter text to be searched!
+No matches found!
+Search Complete
+No matches found!
+Search Complete
+Please enter the text to be searched!
+Search Complete
+Previous Action Retrieved!
+Previous Action Retrieved!
+Added!
+Previous Action Retrieved!
+Taskupdated!
+Taskupdated!
+Added!
+Please provide valid ID
+Please provide valid ID
+Deleted!
+Please provide valid ID
+Please provide valid ID
+Please enter valid ID!
+Task successfully completed and archived!
+Task successfully completed and archived!
+Previous Action Retrieved!
+Re-Done!
+
+Added!
+Added!
+Added!
+Please enter a valid Event Name
+Please enter a valid Event Name
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Start date has invalid month.Please check with your system date format
+Added!
+Start date has invalid value.Please check with your system date format
+Added!
+Added!
+Added!
+Start date has invalid month.Please check with your system date format
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Added!
+Task successfully completed and archived!
+Previous Action Retrieved!
+Task successfully completed and archived!
+Task successfully completed and archived!
+Task successfully completed and archived!
+Added!
+Deleted!
+
+

@@ -1,0 +1,20 @@
+1. ADD
+Ex: "Dinner" at "Pizza Hut" start "2/9/11" end "2/9/11" from "8.00 pm" to "10.00 pm" duration "0.5 hr" priority "high" reminder "1 hr"
+
+2. DELETE
+Ex: Delete ID "12"
+
+3. EDIT
+Ex: Edit ID "11" event "Dinner" at "Pizza Hut" start "2/9/11" end "2/9/11" from "8.00 pm" to "10.00 pm" duration "0.5 hr" priority "high" reminder "1 hr"
+
+4. SEARCH
+Ex: Search location "Pizza Hut"
+
+5. UNDO
+Ex: Undo
+
+6. DONE
+Ex: Done ID "12"
+
+7. CLEAR
+Ex: Clear
